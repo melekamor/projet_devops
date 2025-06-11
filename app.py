@@ -1,5 +1,7 @@
-def hello():
-    return "Hello, DevOps!"
+def add(a, b):
+    return a + b
 
 if __name__ == "__main__":
-    print(hello())
+    result = add(2, 3)
+    print("Résultat:", result)
+

@@ -1,2 +1,5 @@
-def test_addition():
-    assert 2 + 2 == 4
+from app import add
+
+def test_add():
+    assert add(2, 3) == 5
+
